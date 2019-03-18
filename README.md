@@ -1,15 +1,27 @@
+
+
 # MyApplication1
 实验一Android开发基础及实验二Android布局
 
 # 实验一Android开发基础
 
 1.首先实现了HelloWord,源代码如下：
+
+
+
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
     xmlns:app="http://schemas.android.com/apk/res-auto"
+   
     xmlns:tools="http://schemas.android.com/tools"
+  
     android:layout_width="match_parent"
+    
     android:layout_height="match_parent"
+    
     tools:context=".MainActivity">
 
     <TextView
@@ -21,11 +33,23 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
 </android.support.constraint.ConstraintLayout>
+
+
 截图如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190318192534258.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NhbW11cmFtYXQ=,size_16,color_FFFFFF,t_70)
+
+
+
+
 2.验证了Activity的生命周期
+
+
+
 源代码如下：
+
+
 package com.example.administrator.myapplication1;
 
 import android.support.v7.app.AppCompatActivity;
@@ -80,8 +104,16 @@ public class MainActivity extends AppCompatActivity {
 ## 实验二Android布局
 
 1.线性布局
+
+
+
 截图如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190318193220862.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NhbW11cmFtYXQ=,size_16,color_FFFFFF,t_70)
+
+
+
+
+
 源代码如下：
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -209,8 +241,16 @@ public class MainActivity extends AppCompatActivity {
 </LinearLayout>
 
 2.实现布局界面
+
+
+
+
 截图如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190318193731316.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NhbW11cmFtYXQ=,size_16,color_FFFFFF,t_70)
+
+
+
+
 源代码如下：
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
