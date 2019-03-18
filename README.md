@@ -319,7 +319,9 @@ public class MainActivity extends AppCompatActivity {
 
     <Button
         android:id="@+id/seven"
-        android:layout_width="match_parent"
+
+
+android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_alignParentLeft="true"
         android:layout_marginTop="200dp"
@@ -329,8 +331,15 @@ public class MainActivity extends AppCompatActivity {
 </RelativeLayout>
 
 3.表格布局
+
+
+
 截图如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190318193951842.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NhbW11cmFtYXQ=,size_16,color_FFFFFF,t_70)
+
+
+
+
 源代码如下：
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
