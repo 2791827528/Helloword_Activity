@@ -8,7 +8,7 @@
 1.首先实现了HelloWord,源代码如下：
 
 
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 
 
@@ -35,7 +35,7 @@
 
 
 </android.support.constraint.ConstraintLayout>
-
+```
 
 截图如下：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190318192534258.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NhbW11cmFtYXQ=,size_16,color_FFFFFF,t_70)
@@ -49,7 +49,7 @@
 
 源代码如下：
 
-
+```
 package com.example.administrator.myapplication1;
 
 import android.support.v7.app.AppCompatActivity;
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-
+```
 ## 实验二Android布局
 
 1.线性布局
@@ -115,6 +115,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 源代码如下：
+```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -239,7 +240,7 @@ public class MainActivity extends AppCompatActivity {
             android:textSize="10dp"/>
     </LinearLayout>
 </LinearLayout>
-
+```
 2.实现布局界面
 
 
@@ -252,6 +253,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 源代码如下：
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -329,7 +331,7 @@ android:layout_width="match_parent"
         android:textColor="#000000"
         android:text="violef" />
 </RelativeLayout>
-
+```
 3.表格布局
 
 
@@ -341,6 +343,7 @@ android:layout_width="match_parent"
 
 
 源代码如下：
+```
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -429,5 +432,5 @@ android:layout_width="match_parent"
     </TableRow>
 </TableLayout>
 
-
+```
 
